@@ -1,3 +1,4 @@
 document.body.onload = function(){
-	document.querySelector("#audio").play()
+	var audio = new Audio('audio_file.mp3');
+audio.play();
 }
