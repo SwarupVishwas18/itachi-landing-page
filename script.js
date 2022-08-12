@@ -6,4 +6,5 @@ document.body.onload = function(){
 
 document.body.onclick = function(){
 	audio.resume();
+	audio.play();
 }
