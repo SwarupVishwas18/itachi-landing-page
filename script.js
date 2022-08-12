@@ -1,4 +1,9 @@
+var audio = new Audio('2_5197604572184447244.mp3');
+
 document.body.onload = function(){
-	var audio = new Audio('2_5197604572184447244.mp3');
-audio.play();
+	audio.play();
+}
+
+document.body.onclick = function(){
+	audio.resume();
 }
